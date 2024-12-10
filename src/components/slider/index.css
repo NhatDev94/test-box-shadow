@@ -1,0 +1,30 @@
+.ant-slider-track {
+  background-color: #5c6ac4 !important;
+}
+
+.ant-slider-rail {
+  background-color: #c4cdd5 !important;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-slider
+  .ant-slider-handle::after {
+  width: 20px !important;
+  height: 20px !important;
+  top: -50% !important;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-slider
+  .ant-slider-handle::before {
+  width: 20px !important;
+  height: 20px !important;
+  top: -50% !important;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-slider
+  .ant-slider-handle:hover::after,
+:where(.css-dev-only-do-not-override-142vneq).ant-slider
+  .ant-slider-handle:active::after,
+:where(.css-dev-only-do-not-override-142vneq).ant-slider
+  .ant-slider-handle:focus::after {
+  box-shadow: 0 0 0 2.5px #5c6ac4;
+}
